@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="shortcut icon" href="images/cntt.png">
+        <title>Diễn đàn CNTT – Đại học Mở Tp.HCM</title>
+    </head>
+    <body>
+        <header>
+            <div class="ou">
+                <div>
+                    <img src="images/ou.png" alt="ou">
+                </div>
+                <h1>DIỄN ĐÀN CNTT</h1>
+            </div>
+        </header>
+        <section>
+            <form>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td class="row" colspan="2">
+                                <h2>ĐĂNG KÍ THÀNH VIÊN</h2> 
+                            </td>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" class="list">
+                                <input type="submit" name="gui" value="Đăng ký"/>
+                                <input type="reset" name="nhaplai" value="Nhập lại"/>
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td class="col">Họ tên:</td>
+                            <td>
+                                <input type="text" placeholder="Nhập họ và tên..." name="name" required/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col">Quê quán:</td>
+                            <td>
+                                <input type="text" placeholder="Nhập quê quán..." name="addrs" required/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Giới tính:
+                            </td>   
+                            <td class="gender">
+                                <input type="radio" name="gender" checked="checked"/> Nam
+                                <input type="radio" name="gender"/> Nữ
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <input type="text" placeholder="Nhập email..."/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại:</td>
+                            <td>
+                                <input type="text" placeholder="Nhập điện thoại...">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Chuyên ngành:</td>
+                            <td>
+                                <select name="major">
+                                    <option selected>Công nghệ thông tin</option>
+                                    <option>Kế toán</option>
+                                    <option>Quản trị kinh doanh</option>
+                                    <option>Hệ thống thông tin quản lý</option>
+                                    <option>Khoa học máy tính</option>
+                                    <option>Ký thuật phần mềm</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+        <footer></footer>
+    </body>
+</html>
